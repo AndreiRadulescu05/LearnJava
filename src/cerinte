@@ -1,0 +1,98 @@
+Homework:
+Note: there's no hard deadline for submitting these exercises. You're encouraged to work through them at your own pace and submit your homework to alexandru.papoi@endava.com via e-mail, whenever you're ready.
+Don't forget the power of collaboration. Feel free to form study groups, discuss your solutions, and share challenges you're facing with these exercises. A study group can be a fantastic way to gain new perspectives, clarify doubts, and reinforce your understanding of Java.
+Happy coding!
+
+    Data Types Exercises
+Integer (int) Exercises
+1.	Calculate the Perimeter of a Rectangle:
+Initialize two integers length and width with any values. Calculate and print the perimeter of a rectangle using these variables.
+2.	Convert Minutes into Seconds:
+Initialize an integer minutes with any value. Convert this into seconds and print the result.
+3.	Calculate the Area of a Square
+Initialize an integer side representing the side of a square. Calculate and print the area of the square.
+
+Double (double) Exercises
+1.	Calculate the Volume of a Cylinder
+Initialize two doubles radius and height for a cylinder. Calculate and print the volume of the cylinder (use Math.PI for π).
+2.	Convert Fahrenheit to Celsius
+Initialize a double fahrenheit with any value. Convert this to Celsius and print the result.
+3.	Calculate the Hypotenuse of a Right-Angled Triangle
+Given the lengths of the two shorter sides of a right-angled triangle, calculate the length of the hypotenuse. Remember, the hypotenuse of a right-angled triangle can be found using Pythagoras theorem, which states that the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+
+Boolean (boolean) Exercises
+1.	Boolean Value Assignment and Printing
+Create a program that declares a boolean variable, assigns a value to it, and then prints it. This exercise helps you understand how to work with boolean variables.
+2.	Boolean Comparison
+Write a program that compares two integers using relational operators (e.g., <, >, <=, >=) and stores the result in a boolean variable. Then, print the result. This exercise demonstrates how comparison operations result in boolean values.
+3.	Checking Weather Conditions
+Write a program to decide if you should go out based on the weather conditions. The decision is based on three factors: if it's sunny, if there's a chance of rain, and if it's warm.
+You should only go out if it's sunny and warm. However, even if it's not sunny, you might still consider going out if it's warm but only if there's no chance of rain.
+Instructions:
+Create three boolean variables: isSunny, isWarm, and chanceOfRain.
+Use logical operators to evaluate the conditions under which you should go out.
+Store the result in a boolean variable named shouldGoOut.
+Print the value of shouldGoOut.
+
+Char (char) Exercises
+1.	Print a Character
+Create a program that initializes a char variable with a letter, then prints this character.
+2.	Convert Case
+Write a program that converts a lowercase letter to uppercase and vice versa. This exercise does not use conditional statements, so you'll need to use two predefined characters.
+3.	Concatenate Character with String
+Create a program that demonstrates how to add a character to both the beginning and end of a string. This exercise will help you understand how characters and strings can be combined to create new string values.
+Instructions:
+Initialize a char variable and a String variable.
+Concatenate the character to the beginning and the end of the string.
+Print the new concatenated string.
+
+String (String) Exercises
+1.	Print a String
+Write a program that initializes a String variable with a value and prints it.
+2.	Concatenate Two Strings
+Create a program that concatenates two strings and prints the result.
+3.	Replace Characters
+Write a program that replaces all occurrences of a specified character in a string with another character.
+Challenge: Explore Java's built-in methods for various data types.
+Operators, If blocks and Switch, Break and Continue Exercises
+Alright, let's dive straight into the exercises to get your Java skills sharper. Keep in mind, these exercises aim to cover the basics and get you comfortable with Java. Let's get it!
+
+    Operators
+1.	Basic Arithmetic Operators: Create a Java program that takes two integers as input and prints their sum, difference, multiplication, and division. Make sure to handle division by zero gracefully.
+2.	Modulus Magic: Write a Java program that checks if a number (input from the user) is even or odd without using any conditional statements (hint: use the modulus operator).
+3.	Compound Assignment Operators: Create a program that demonstrates the use of compound assignment operators like +=, -=, *=, and /= with some integers. Print the result after each operation to see the effect.
+
+If Blocks
+1.	Grade Calculator: Write a Java program that takes a score (e.g., 87) as input and assigns a grade based on the score (A for 90 and above, B for 80-89, C for 70-79, D for 60-69, and F for below 60) using if-else blocks. Print the grade.
+2.	Password Checker: Implement a simple password strength checker in Java. If the password length is less than 8 characters, print "Weak Password". If it has 8 or more characters but doesn't contain any number, print "Moderate Password". If it meets both conditions, print "Strong Password".
+3.	Leap Year Checker: Write a Java program to check whether a year (input from the user) is a leap year or not. Remember, a leap year is divisible by 4 but not by 100 unless it's also divisible by 400.
+
+Switch
+1.	Day of the Week: Write a Java program that asks the user for a number (1-7) and prints the day of the week corresponding to that number using a switch statement (1 for Monday, 2 for Tuesday, etc.).
+2.	Simple Calculator: Create a Java program that acts as a simple calculator. The program should take three inputs: two numbers and an operator (+, -, *, /) and perform the operation using a switch statement.
+3.	Traffic Light Simulator: Simulate a traffic light using a switch statement. The user inputs one of three colors (red, yellow, green), and the program prints out what a driver should do (e.g., "Stop" for red).
+
+Break and Continue
+1.	Find the First Positive Divisor: Write a Java program that finds the first positive divisor (other than 1) of a number entered by the user. Use a loop and a break statement when the divisor is found.
+2.	Skip Negative Numbers: Create a program that sums up numbers entered by the user until the user enters 0. Use a continue statement to skip any negative numbers and print the final sum.
+3.	Guess the Number Game: Implement a simple "guess the number" game where the program randomly selects a number between 1 and 10, and the user has a maximum of 5 attempts to guess it. Use a loop with a break statement to end the game if the user guesses correctly or uses up all attempts.
+
+Loops
+Alright, let's keep that coding grind going with some loop action. These exercises will help you flex those loop muscles in Java. Let's dive in!
+For Loops
+1.	Multiplication Table: Write a Java program that prints out the multiplication table for a number up to 10. For example, if the user inputs 3, your program should print the multiplication table for 3 (3 x 1 = 3, 3 x 2 = 6, ..., 3 x 10 = 30) using a for loop.
+2.	Factorial Calculator: Create a program that calculates the factorial of a number provided by the user. Use a for loop to calculate the factorial. Remember, the factorial of n (n!) is the product of all positive integers less than or equal to n.
+3.	Countdown Timer: Implement a countdown timer that takes a number from the user and counts down to 0, printing each number. Use a for loop for the countdown, and make sure to include a sleep of 1 second between each print to simulate a real timer.
+
+For-Each Loop
+1.	Find the Maximum: Write a Java program that finds the maximum value in an array of integers. Use a for-each loop to iterate through the array. You can initialize the array with some values or take the input from the user.
+2.	Count Vowels: Create a program that counts the number of vowels in a given string. Use a for-each loop to iterate through the characters of the string. Consider A, E, I, O, U as vowels for this exercise.
+3.	Sum of Even Numbers: Given an array of integers, write a Java program that calculates the sum of all even numbers in the array using a for-each loop. You can hardcode the array or take input from the user.
+
+    While Loops
+
+While Loops
+1.	Input Summation: Write a Java program that continuously takes numbers as input from the user and adds them to a sum. The loop should continue until the user enters 0, at which point the program should print the final sum and exit.
+2.	Guessing Game: Implement a guessing game where the program selects a random number between 1 and 100, and the user has to guess it. Use a while loop to allow the user unlimited attempts until they guess the number correctly. After each guess, the program should tell the user if the guess is too high or too low.
+3.	Palindrome Checker: Create a Java program that checks if a given string is a palindrome. Use a while loop to compare characters from the beginning and the end of the string, moving towards the center. A palindrome reads the same backward as forward, like "radar" or "level".
+
