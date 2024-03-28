@@ -89,7 +89,7 @@ For-Each Loop
 2.	Count Vowels: Create a program that counts the number of vowels in a given string. Use a for-each loop to iterate through the characters of the string. Consider A, E, I, O, U as vowels for this exercise.
 3.	Sum of Even Numbers: Given an array of integers, write a Java program that calculates the sum of all even numbers in the array using a for-each loop. You can hardcode the array or take input from the user.
 
-    While Loops
+
 
 While Loops
 1.	Input Summation: Write a Java program that continuously takes numbers as input from the user and adds them to a sum. The loop should continue until the user enters 0, at which point the program should print the final sum and exit.
