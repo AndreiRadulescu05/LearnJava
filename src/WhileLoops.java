@@ -72,7 +72,6 @@ public class WhileLoops {
             left++;
             right--;
         }
-
         return true;
     }
 
