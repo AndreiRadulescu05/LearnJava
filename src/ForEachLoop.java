@@ -17,11 +17,8 @@ public class ForEachLoop {
 
 
             // Ex 2
-            // Count Vowels: Create a program that counts the number of vowels in a given string.
-            // Use a for-each loop to iterate through the characters of the string.
-            // Consider A, E, I, O, U as vowels for this exercise.
 
-            System.out.println("Exercitiul 2 - Count Vowels");
+        System.out.println('\n' + "Exercitiul 2 - Count Vowels");
 
         Scanner sentence = new Scanner(System.in);
         String str = sentence.nextLine();
@@ -33,19 +30,16 @@ public class ForEachLoop {
                     || str.charAt(i) == 'e'
                     || str.charAt(i) == 'i'
                     || str.charAt(i) == 'o'
-                    || str.charAt(i)  == 'u' ) {
+                    || str.charAt(i) == 'u') {
                 count++;
 
             }
         }
-        System.out.println("Total number of vowels is: "+ count);
+        System.out.println("Total number of vowels is: " + count);
 
 
             //Ex 3
-            // Sum of Even Numbers: Given an array of integers, write a Java program that calculates
-            // the sum of all even numbers in the array using a for-each loop.
-            // You can hardcode the array or take input from the user.
-            // System.out.println("Exercitiul 3 - Sum of Even Numbers");
+
 
     int[] evenNumber = {1, 2, 6, 7, 8, 11};
 
@@ -55,7 +49,7 @@ public class ForEachLoop {
             sum += num;
         }
     }
-        System.out.println("The sum on even numbers is: " + sum);
+        System.out.println('\n' + "The sum on even numbers is: " + sum);
 
     }
 
