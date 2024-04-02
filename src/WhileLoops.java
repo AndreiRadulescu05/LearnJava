@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class WhileLoops {
     public static void main(String[] args) {
         // Ex 1
-       /* System.out.println("Exercitiul 1 - Input Summation");
+        System.out.println("Exercitiul 1 - Input Summation");
 
         Scanner scanner = new Scanner(System.in);
         int summationNumbers = 0;
@@ -17,11 +17,11 @@ public class WhileLoops {
             count++;
         } while (number != 0);
         System.out.println("The total input summation is: " + summationNumbers);
-*/
+
 
         //Ex 2
 
-        /*System.out.println('\n' + "Exercitiul 2 - Guessing Game");
+        System.out.println('\n' + "Exercitiul 2 - Guessing Game");
 
         Scanner scanner2 = new Scanner(System.in);
         Random random = new Random();
@@ -42,11 +42,9 @@ public class WhileLoops {
             } else {
                 System.out.println("You guessed the correct number!");
             }
-        }*/
+        }
 
-        //3.	Palindrome Checker: Create a Java program that checks if a given string is a palindrome.
-        // Use a while loop to compare characters from the beginning and the end of the string, moving towards the center.
-        // A palindrome reads the same backward as forward, like "radar" or "level".
+        //Ex 3
 
         System.out.println('\n' + "Exercitiul 3 - Palindrom Checker");
 
